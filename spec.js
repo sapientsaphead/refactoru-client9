@@ -14,7 +14,7 @@ var splice = function(arr, start, numToReplace, replace) {
 	if(start >= arr.length){
 		var c = [];
 		for(var i=3; i<arguments.length; i++){
-		c.push(arguments[i]);
+			c.push(arguments[i]);
 		};
 		newArray = arr.concat(c);
 		return newArray;
@@ -24,7 +24,7 @@ var splice = function(arr, start, numToReplace, replace) {
 		var a = [];
 		var b = [];
 		for (var i = 0; i < parseInt(start); i++){
-					a.push(arr[i]);
+			a.push(arr[i]);
 		}
 		for (var i = parseInt(lastIndex); i < arr.length; i++){
 			b.push(arr[i]);
@@ -37,11 +37,10 @@ var splice = function(arr, start, numToReplace, replace) {
 		var b = [];
 		var c = [];
 		for(var i=3; i<arguments.length; i++){
-		//for each arguments[i] in this loop push to new array c;
-		c.push(arguments[i]);
+			c.push(arguments[i]);
 		};
 		for (var i = 0; i < parseInt(start); i++){
-					a.push(arr[i]);
+			a.push(arr[i]);
 		}
 		for (var i = parseInt(start); i < arr.length; i++){
 			b.push(arr[i]);
@@ -55,7 +54,7 @@ var splice = function(arr, start, numToReplace, replace) {
 		var b = [];
 		var c = [];
 		for(var i = 3; i<arguments.length; i++){
-		c.push(arguments[i]);
+			c.push(arguments[i]);
 		};
 		for (var i = 0; i < start; i++){
 			a.push(arr[i]);
@@ -68,7 +67,7 @@ var splice = function(arr, start, numToReplace, replace) {
 		return newArray;
 	}
 	else {
-		return "Cats are the best."
+		return newArray;
 	}
 };
 
