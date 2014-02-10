@@ -19,7 +19,9 @@ Implement a pure splice function using test-driven development.
 3. Open spec.js in your editor. Implement the [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) method so the accompanying tests all pass. You are not allowed to use the built-in splice method in your function; you are reproducing its functionality from scratch in a functional style.
 
 ```
-Tip: Look over the included assert functions which serve as a barebones testing framework. Look over the unit tests at the end (where assert is called) to see the kinds of things that are being tested for. You will get to write your own unit tests soon!
+Tip: Look over the included assert functions which serve as a barebones testing framework. Look over the
+unit tests at the end (where assert is called) to see the kinds of things that are being tested for. You
+will get to write your own unit tests soon!
 ```
 
 #### Part II
@@ -31,6 +33,9 @@ Tip: Look over the included assert functions which serve as a barebones testing 
 5. Rewrite the unit tests from Part I using [Jasmine](http://pivotal.github.io/jasmine/)-style unit tests. Write these in spec/my-spec.js which is already being included by SpecRunner.html. Make sure that the tests all pass, and that they cover all the cases originally covered in Part I.
 
 ```
-Warning: There are a lot of files being download, saved, and included in this exercise. If something fails to work or it seems like a file is not included correctly, use this opportunity to practice your debugging skills and see if you can trace the problem. What might be causing it? How can you test your assumptions? What basic functionality can you make sure is working?
+Warning: There are a lot of files being download, saved, and included in this exercise. If something fails
+to work or it seems like a file is not included correctly, use this opportunity to practice your debugging
+skills and see if you can trace the problem. What might be causing it? How can you test your assumptions?
+What basic functionality can you make sure is working?
 ```
 
